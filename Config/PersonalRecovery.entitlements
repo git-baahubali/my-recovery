@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- HealthKit capability. Works with a free (Personal Team) Apple Developer account. -->
+	<key>com.apple.developer.healthkit</key>
+	<true/>
+	<!-- Only used for Clinical Health Records; must be present but empty. -->
+	<key>com.apple.developer.healthkit.access</key>
+	<array/>
+</dict>
+</plist>

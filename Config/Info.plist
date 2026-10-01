@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+		Shown in the HealthKit permission sheet. HealthKit refuses to present the sheet
+		(and the app can crash) if this key is missing. The app only READS health data,
+		so NSHealthUpdateUsageDescription is intentionally omitted.
+	-->
+	<key>NSHealthShareUsageDescription</key>
+	<string>Personal Recovery reads your heart rate, HRV, sleep, respiratory rate, wrist temperature, workouts and active energy from Apple Health to show how recovered you are. All data stays on this iPhone.</string>
+</dict>
+</plist>
